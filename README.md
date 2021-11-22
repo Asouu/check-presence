@@ -23,6 +23,8 @@ from kivy.app import App
 
 
 class MApp(App):
+
+
     def __init__(self):
         super(MApp, self).__init__()
         self.label = Label(text = '')
